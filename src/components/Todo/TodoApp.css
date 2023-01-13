@@ -1,0 +1,195 @@
+.todo {
+
+    background-color: rgb(201, 40, 40);
+    height: 100vh;
+
+}
+
+.Title {
+    color: white;
+    padding: 5px;
+}
+
+#add-field {
+    width: 400px;
+    height: 30px;
+    margin-left: 55px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#add {
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+}
+
+.todo ul {
+    background-color: black;
+    color: white;
+    width: 400px;
+    display: grid;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+
+    /* margin-left: 432px; */
+
+}
+
+.todo ul li {
+    height: 30px;
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+.complete-btn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-left: 53px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 200px;
+}
+
+.delete {
+    width: 50px;
+    background-color: rgb(20, 20, 19);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+}
+
+.todo span {
+    border: 1px solid white;
+    border-radius: 8px;
+    color: rgb(15, 15, 15);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+@media only screen and (max-width:600px) {
+    .todo {
+        background-color: black;
+        padding: 20px;
+        width: 400px;
+        height: 500px;
+
+    }
+
+    .Title {
+        color: rgb(79, 241, 15);
+        background-color: black;
+        padding: 5px;
+    }
+
+    #add-field {
+        width: 200px;
+        height: 30px;
+        margin-left: 55px;
+        border: none;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #add {
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 2px solid rgb(79, 241, 15);
+        border-radius: 8px;
+        color: rgb(79, 241, 15);
+        font-weight: 700;
+    }
+
+    .todo ul {
+        display: grid;
+        width: 380px;
+        position: relative;
+        justify-items: center;
+        text-align: left;
+        margin-left: 0px;
+
+    }
+
+    .todo ul li {
+        /* margin-left: 10px; */
+        width: 280px;
+        height: 25px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        list-style: none;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .todo span {
+        border: 1px solid white;
+        border-radius: 8px;
+        color: rgb(0, 0, 0);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+
+    .complete-btn {
+        background-color: rgb(79, 241, 15);
+        color: white;
+        padding: 5px;
+        margin-left: 53px;
+        border: 1px solid white;
+        border-radius: 5px;
+        position: absolute;
+        left: 170px;
+        /* margin-right: 3px;
+        border: 1px solid white;
+        border-radius: 5px; */
+    }
+
+    .delete {
+        width: 55px;
+
+        background-color: rgb(79, 241, 15);
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 12px;
+        border: 1px solid white;
+        border-radius: 5px;
+        position: absolute;
+        left: 300px;
+    }
+
+
+
+
+
+}
